@@ -166,7 +166,7 @@ Read our code of conduct [here.](https://github.com/ran-isenberg/aws-lambda-mcp-
 
 * [AWS Lambda Powertools (Python)](https://github.com/aws-powertools/powertools-lambda-python)
 * [AWS sample for MCP](https://github.com/awslabs/mcp/tree/main/src/mcp-lambda-handler)
-* [AWS Lambda Handler cookbook]((https://ran-isenberg.github.io/aws-lambda-handler-cookbook/))
+* [AWS Lambda Handler cookbook](https://ran-isenberg.github.io/aws-lambda-handler-cookbook/)
 
 ## License
 
