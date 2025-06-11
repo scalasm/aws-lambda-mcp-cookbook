@@ -1,8 +1,8 @@
 ---
 title: Homepage
-description: AWS Lambda MCP Cookbook - a Serverless MCP Service Blueprint
+description: AWS Lambda MCP Cookbook - a Serverless MCP Server Blueprint
 ---
-## **AWS AWS Lambda MCP Cookbook - a Serverless MCP Service Blueprint**
+## **AWS AWS Lambda MCP Cookbook - a Serverless MCP Server Blueprint**
 
 [<img alt="alt_text" src="./media/banner.png" width="400" />](https://www.ranthebuilder.cloud/)
 
@@ -51,7 +51,7 @@ It's based on [AWS sample for MCP](https://github.com/awslabs/mcp/tree/main/src/
 * The AWS Lambda handler embodies Serverless best practices and has all the bells and whistles for a proper production ready handler.
 * AWS Lambda handler uses [AWS Lambda Powertools](https://docs.powertools.aws.dev/lambda-python/).
 * AWS Lambda handler 3 layer architecture: handler layer, logic layer and data access layer
-* Session context storage in DynamoDB
+* Session context storage in DynamoDB (does NOT send it to tools yet)
 * API protected by WAF with four AWS managed rules in production deployment
 * CloudWatch dashboards - High level and low level including CloudWatch alarms
 
@@ -78,7 +78,7 @@ While the code examples are written in Python, the principles are valid to any s
 
 ## Handler Examples
 
-```python hl_lines="7 12 27" title="mcp_handler.py"
+```python hl_lines="7 12 34" title="mcp_handler.py"
 --8<-- "docs/examples/best_practices/mcp/mcp.py"
 ```
 
