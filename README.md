@@ -1,4 +1,4 @@
-# AWS Lambda Handler Cookbook (Python)
+# AWS Lambda MCP Cookbook (Python)
 
 [![license](https://img.shields.io/github/license/ran-isenberg/aws-lambda-mcp-cookbook)](https://github.com/ran-isenberg/aws-lambda-mcp-cookbook/blob/master/LICENSE)
 ![PythonSupport](https://img.shields.io/static/v1?label=python&message=3.13&color=blue?style=flat-square&logo=python)
