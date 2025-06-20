@@ -11,6 +11,7 @@ repos:
         name: Check for case conflicts
       - id: check-json
         name: Check JSON files format
+        exclude: ".devcontainer/devcontainer.json"
       - id: check-shebang-scripts-are-executable
         name: Check that scripts with shebangs are executable
       - id: check-merge-conflict

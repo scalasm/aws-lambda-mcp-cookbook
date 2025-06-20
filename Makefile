@@ -8,7 +8,7 @@ LATEST_OPENAPI := openapi_latest.json
 
 
 dev:
-	pip install --upgrade pip pre-commit poetry
+	pip install --upgrade pip pre-commit poetry poetry-plugin-export
 	pre-commit install
 # ensures poetry creates a local virtualenv (.venv)
 	poetry config --local virtualenvs.in-project true
