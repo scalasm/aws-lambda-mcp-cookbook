@@ -22,8 +22,6 @@ Choose the architecture that you see fit, each with its own pros and cons.
 
 This project is a blueprint for new Serverless MCP servers.
 
-It's based on [AWS sample for MCP](https://github.com/awslabs/mcp/tree/main/src/mcp-lambda-handler) - but had major refactors since, combined with the [AWS Lambda Handler cookbook]((https://ran-isenberg.github.io/aws-lambda-mcp-cookbook/)) template.
-
 **[📜Documentation](https://ran-isenberg.github.io/aws-lambda-mcp-cookbook/)** | **[Blogs website](https://www.ranthebuilder.cloud)**
 > **Contact details | mailto:ran.isenberg@ranthebuilder.cloud**
 
